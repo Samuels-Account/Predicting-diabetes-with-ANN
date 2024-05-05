@@ -7,7 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
 # Load the dataset
-file_path = 'C:\\Users\\sledu\\OneDrive\\Documents\\University Work\\Year 2\\Artificial Intelligence\\Dataset of Diabetes .csv'
+file_path = 'Dataset of Diabetes .csv'
 data = pd.read_csv(file_path)
 
 # Encode categorical data
